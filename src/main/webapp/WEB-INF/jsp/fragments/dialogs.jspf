@@ -1,0 +1,14 @@
+<div id="dialog-message" title="Message" style="display: none">
+	<p>
+		<span class="ui-icon ui-icon-circle-close"
+			style="float: left; margin: 0 .5em 3em 0;"></span>
+		<span></span>
+	</p>
+</div>
+<div id="dialog-confirm" title="Confirmation" style="display: none">
+	<p>
+		<span class="ui-icon ui-icon-alert"
+			style="float: left; margin: 0 7px 20px 0;"></span>
+		<span></span>
+	</p>
+</div>

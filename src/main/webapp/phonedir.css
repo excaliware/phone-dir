@@ -1,0 +1,123 @@
+
+body {
+	width: 100%;
+	margin: 0 auto;
+}
+
+/*
+ * Table styles.
+ */
+table#index {
+	width: 100%;
+	border: 1px solid black;
+	margin: 1em 0;
+/* 	border-collapse: collapse; */
+}
+
+table#index tr {
+	background: #E7E7E7;
+}
+
+/* table#index tr:nth-child(even) {background: #E0E0E0;} */
+
+table#index th {
+/* 	border: 1px solid black; */
+	background: #DDD;
+	padding: 3px;
+}
+
+table#index td {	
+	padding: .3em;
+}
+
+/* Make the checkbox column thin. */
+table#index td:nth-child(2) {
+	width: 1%;
+}
+
+table#index td:nth-child(3),
+table#index td:nth-child(4) {
+	font-size: 1.5em;
+}
+
+/* Highlight the row under the mouse cursor. */
+table#index tr:hover {
+	background-color: #FFF;
+}
+
+/* Make the first column to fit its content. */
+table#index td:first-child {
+	width: 1%;
+}
+
+table#index td a {
+	text-decoration: none;
+}
+
+section#add-record {
+	margin: 0 auto;
+	background-color: #EEE;
+	text-align: center;
+}
+
+section#add-record table {
+	border-collapse: collapse;
+	width: 50%;
+	margin: 0 auto;
+}
+
+section#edit-record table td {
+	border: 1px solid #ccc;
+	padding: .5em 1em;
+	white-space: nowrap;
+}
+
+section#edit-record {
+	margin: 0 auto;
+	background-color: #EEE;
+	text-align: center;
+}
+
+section#edit-record table {
+	border-collapse: collapse;
+	width: 50%;
+	margin: 0 auto;
+}
+
+section#edit-record table td {
+	border: 1px solid #ccc;
+	padding: .5em 1em;
+	white-space: nowrap;
+}
+
+section#search {	
+	margin: 0 auto;
+	background-color: #DDD;
+	text-align: center;
+}
+
+#search #query {
+	padding-right: 1em;
+}
+
+.ui-autocomplete-loading {
+	background: white url("http://jqueryui.com/resources/demos/autocomplete/images/ui-anim_basic_16x16.gif") right center no-repeat;
+}
+
+#scroll-to-top {
+	font-size: 1.5em;
+}
+
+.error {
+	color: red;
+}
+
+.errorBlock {
+	color: black;
+	background-color: #fcc;
+	border: 1px solid red;
+}
+
+a {
+	color: black;
+}
